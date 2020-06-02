@@ -7,3 +7,5 @@ applications:
   instances: 1
   memory: 1G
   stack: cflinuxfs3
+  env:
+    LD_LIBARY_PATH: /home/vcap/app/BOOT-INF/classes/Centera_SDK/lib
